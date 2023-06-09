@@ -1,0 +1,73 @@
+.Contenedor-section {
+  width: 91%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10%;
+}
+
+.carousel-root {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.carousel .slide {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.carousel .slider-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel .slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.carousel .carousel-status {
+  display: none;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: -1.9%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .control-dots .dot {
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel .control-dots .dot:hover,
+.carousel .control-dots .dot.active {
+  background-color: #fff;
+}
+
+.carousel .slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel .control-dots {
+    bottom: -3.2%;
+  }
+}
