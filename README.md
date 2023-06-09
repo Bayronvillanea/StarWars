@@ -1,2 +1,2 @@
 # StarWars
-Pagina con React
+Pagina con React Practica no original
