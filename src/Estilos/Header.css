@@ -9,6 +9,13 @@
   --textHeader: #b5b7b7;
   --textletras: DINNext, Matterhorn, Helvetica, sans-serif;
 }
+.Contenedor-section {
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
 
 .contenedor-header {
   display: flex;
