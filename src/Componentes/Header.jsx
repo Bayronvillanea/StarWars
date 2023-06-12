@@ -43,7 +43,7 @@ export default function Header() {
       </div>
 
       <section className='Contenedor-section'>
-        <Carousel
+        <Carousel className='carroimg'
           showThumbs={false}
           autoPlay={true}
           infiniteLoop={true}

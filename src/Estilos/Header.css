@@ -15,15 +15,19 @@
   margin: 0 auto;
   margin-top: 10px; 
   padding-bottom: 5px;
+  
 }
-
+.Contenedor-imagen{
+  object-fit: cover;
+ height: 450px;
+}
 
 .contenedor-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+   top: 0px;
 }
 
 .logo {
