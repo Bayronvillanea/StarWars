@@ -19,7 +19,7 @@
 }
 .Contenedor-imagen{
   object-fit: cover;
- height: 450px;
+   height: 450px;
 }
 
 .contenedor-header {
@@ -192,4 +192,9 @@
   .Contenedor-section{
   padding-top: 100px;
   }
+  .Contenedor-imagen{
+    object-fit: cover;
+     height: 180px;
+  }
+  
 }
