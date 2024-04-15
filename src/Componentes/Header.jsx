@@ -32,7 +32,7 @@ export default function Header() {
           <a href='#'>COMMUNITY</a>
           <a href='#'>DATABANK</a>
 
-          <a className='btn-inicio'><p>SIGN IN</p></a>
+          <a className='btn-inicio' href={"https://formulario-taupe.vercel.app/"}><p>SIGN IN</p></a>
         </nav>
 
         <div className={`hamburger ${showMenu ? 'open' : ''}`} onClick={toggleMenu}>
